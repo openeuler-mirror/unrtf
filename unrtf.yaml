@@ -1,0 +1,4 @@
+version_control: hg
+src_repo: http://hg.savannah.gnu.org/hgweb/unrtf
+tag_prefix: "release_"
+separator: "."
