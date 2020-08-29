@@ -1,10 +1,10 @@
-Name:       unrtf
-Summary:    RTF (Rich Text Format) to other formats converter
-Version:    0.21.9
-Release:    1
-License:    GPLv3+
-URL:        https://www.gnu.org/software/unrtf/unrtf.html
-Source0:    http://ftp.gnu.org/gnu/unrtf/unrtf-%{version}.tar.gz
+Name:                unrtf
+Summary:             RTF (Rich Text Format) to other formats converter
+Version:             0.21.9
+Release:             1
+License:             GPLv3+
+URL:                 https://www.gnu.org/software/unrtf/unrtf.html
+Source0:             http://ftp.gnu.org/gnu/unrtf/unrtf-%{version}.tar.gz
 # http://hg.savannah.gnu.org/hgweb/unrtf/rev/3b16893a6406
 Patch0001:           0001-Replace-all-instances-of-sprintf-with-snprintf-and-a.patch
 BuildRequires:       gcc   automake
