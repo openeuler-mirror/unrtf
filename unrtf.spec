@@ -1,12 +1,10 @@
 Name:                unrtf
 Summary:             RTF (Rich Text Format) to other formats converter
-Version:             0.21.9
+Version:             0.21.10
 Release:             1
 License:             GPLv3+
 URL:                 https://www.gnu.org/software/unrtf/unrtf.html
 Source0:             http://ftp.gnu.org/gnu/unrtf/unrtf-%{version}.tar.gz
-# http://hg.savannah.gnu.org/hgweb/unrtf/rev/3b16893a6406
-Patch0001:           0001-Replace-all-instances-of-sprintf-with-snprintf-and-a.patch
 BuildRequires:       gcc   automake
 %description
 UnRTF is a command-line program written in C which converts documents in
@@ -42,5 +40,8 @@ make check
 %{_datadir}/%{name}/
 
 %changelog
+* Sun Jun 12 2022 YukariChiba <i@0x7f.cc> - 0.21.10-1
+- Upgrade version to 0.21.10
+
 * Mon Aug 3 2020 fanjiachen <fanjiachen3@huawei.com> - 0.21.9-1
 - package init
